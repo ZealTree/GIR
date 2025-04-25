@@ -4,8 +4,8 @@ from PyQt6.QtWidgets import (
     QWidget, QFileDialog, QSpinBox, QGraphicsView, QGraphicsScene, QGraphicsRectItem,
     QCheckBox, QDialog, QFormLayout
 )
-from PyQt6.QtGui import QPixmap, QImage, QPainter, QPen, QCursor
-from PyQt6.QtCore import Qt, QRectF, QPointF, QEvent
+from PyQt6.QtGui import QPixmap, QPainter, QPen, QCursor
+from PyQt6.QtCore import Qt, QRectF, QPointF
 
 
 class CropSizeDialog(QDialog):
